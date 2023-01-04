@@ -1,0 +1,2 @@
+to install packages use  command :
+npm i 

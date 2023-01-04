@@ -1,0 +1,59 @@
+*{
+    /* font-family: 'Poppins', sans-serif; */
+    padding:0px;
+    margin:0px;
+    color: black;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+
+.restaurantimg{
+    height:80vh;
+    width:90vw;
+    position: relative;
+}
+
+.gallerybutton{
+    position:absolute;
+    right: 10%;
+    bottom:15%;
+    background-color:white;
+    color:black;
+    
+
+    
+}
+
+.restaurantdetails{
+    list-style: none;
+    display:flex
+}
+
+.orderbutton{
+    width:200px;
+
+}
+
+.cursor-pointer{
+    cursor: pointer;
+}
+
+.menuImg{
+
+    width:90%;
+    position: relative;
+}
+
+.quantity{
+    position: absolute;
+    top:65px
+    /* justify-content: center; */
+}
+.add{
+    position: absolute;
+    top:60px;
+    left:40px;
+    
+}
+
+

@@ -1,0 +1,84 @@
+
+// Mealtype
+
+content:"Start your day with exclusive breakfast options"
+image:"assets/breakfast.png"
+meal_type:1
+name:"Breakfast"
+_id:"630413a0fd87f484c3a4b367"
+
+
+
+// location id
+
+city:"Delhi"
+city_id:1
+country_name:"India"
+location_id:1
+name:"Shalimar Bagh"
+_id:"630359d988317431409900a5"
+
+//get restaurant by location
+aggregate_rating:4.2
+city:"Delhi"
+city_id:1
+contact_number:919453524651
+cuisine:Array(2)
+0:{id: 1, name: 'North Indian'}
+1:{id: 4, name: 'Fast Food'}
+length: 2
+[[Prototype]]:Array(0)
+cuisine_id:Array(2)
+0:1
+1:2
+length:2
+[[Prototype]]: Array(0)
+image:"assets/breakfast.jpg"
+locality:"Shalimar Bagh"
+location_id:1
+mealtype_id:1
+min_price:666
+name:"Domino's"
+rating_text:"Very Good"
+thumb:Array(4)
+0:"assets/breakfast.jpg"
+1:"assets/dinner.jpg"
+2:"assets/drinks.jpg"
+3:"assets/dinner.jpg"
+
+
+
+filter
+
+aggregate_rating:4.5
+city: "Delhi"
+city_id: 1
+contact_number: 919453524651
+cuisine: [{id: 2, name: "South Indian"}, {id: 4, name: "Fast Food"}]
+cuisine_id: [2, 4]
+image: "assets/breakfast.jpg"
+locality: "Shalimar Bagh"
+location_id: 1
+mealtype_id: 1
+min_price: 333
+name: "KFC"
+rating_text: "Excellent"
+thumb: ["assets/breakfast.jpg", "assets/dinner.jpg", "assets/drinks.jpg", "assets/dinner.jpg"]
+_id: "630359f688317431409900ae"
+
+
+aggregate_rating:0,
+city:"",
+city_id:-1,
+contact_number:0,
+cuisine:[],
+cuisine_id:[],
+image:"",
+locality:"",
+location_id:-1,
+mealtype_id:-1,
+min_price:0,
+name:"",
+rating_text:"",
+thumb:[],
+_id:-1

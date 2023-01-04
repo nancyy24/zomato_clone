@@ -1,0 +1,46 @@
+
+*{
+    color:#192F60;
+    font-family: 'Poppins', sans-serif;
+    padding:0px;
+    margin:0px;
+    color: black;
+}
+p{
+    color:#192F60;
+}
+.logo{
+    height:40px;
+    width:40px;
+    background-color: white;
+    border-radius: 20px;
+    color:red;
+
+}
+.resize_img{
+height:100px;
+width:100px;
+border-radius: 10px;
+}
+
+.pagination .page-item{
+    border:1px solid gray;
+    margin:0 5px;
+    padding: 2px 8px;
+    cursor:pointer;
+    color:gray;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px 0px gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.page-item:hover{
+    background-color: navy;
+    color:white;
+}
+
+.cursor-pointer{
+    cursor: pointer;
+}
