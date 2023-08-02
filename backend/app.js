@@ -12,7 +12,13 @@ const PORT = process.env.PORT || 5000;
 const URL = `mongodb+srv://zomato-app:zomato-app@edureka.ild8fi0.mongodb.net/batch48?retryWrites=true&w=majority`
 
 
-app.use(cors());   //to enable cors request
+app.use(cors(
+    {
+        origin : ["https://deploy-mern-1whq.vercel.app"],
+        methods : ["POST","GET"],
+        credentials : true
+    }
+));   //to enable cors request
 // using  to access the post data
 app.use(express.json());   //converting the string json data to pure json data
 app.use(express.urlencoded({extended:false})); // normal post data to json data
