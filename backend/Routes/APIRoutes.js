@@ -8,6 +8,9 @@ const menu_items = require("../Controllers/MenuItemsControllers");
 const users = require("../Controllers/UserControllers");
 const payment = require("../Controllers/PaymentController");
 const cuisine =require("../Controllers/cusineControllers");
+router.get("/", (req, res) => {
+  res.send("Hello");
+});
 router.get("/home",restaurant.home);
 
 router.get("/api/restaurant",restaurant.getrestaurantlist);
